@@ -1,7 +1,7 @@
 # Space Station 14 Web Services
 
 > [!WARNING]
-> This is a **fork** of [vxwm](https://github.com/space-wizards/SS14.Web).
+> This is a **fork** of [SS14.Web](https://github.com/space-wizards/SS14.Web).
 > It contains our own unofficial patches and modifications that may be unstable or opinionated.
 > For the original, stable version please visit the link above.
 

@@ -1,5 +1,10 @@
 # Space Station 14 Web Services
 
+> [!WARNING]
+> This is a **fork** of [vxwm](https://github.com/space-wizards/SS14.Web).
+> It contains our own unofficial patches and modifications that may be unstable or opinionated.
+> For the original, stable version please visit the link above.
+
 **These are backend services hosted by Space Wizards for all of Space Station 14 and Robust. You do not need need to host these yourself in any case (except if you feel like contributing, I guess).**
 
 This repo contains various frontend and backend web services used by **Space Station 14**.
@@ -26,7 +31,7 @@ ConnectionStrings:
 Mutex:
   # Change this to something local on disk.
   DbPath: 'C:\Users\Pieter-Jan Briers\Projects\ss14\web\mutex.db'
-``` 
+```
 
 * Create the mutex DB mentioned above manually, and run `init_mutex.sql` on it. (I recommend https://sqlitebrowser.org/ for this task)
 * If I didn't forget anything you should now be able to start both services and it should work:tm:.
